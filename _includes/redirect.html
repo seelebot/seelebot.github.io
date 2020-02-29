@@ -2,22 +2,23 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8" />
-	<meta http-equiv="refresh" content="0; url={{ page.redirect_to }}" />
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 	<meta name="color-scheme" content="dark" />
 	<meta name="referrer" content="strict-origin" />
 	<meta name="theme-color" content="#000000" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
 	<title>{{ page.title | default: "Redirecting&hellip;" }}</title>
-	<script src="https://src.heptazhou.com/18wggssfgo7e88kbwrbznq40m/overture.js"></script>
 	<link rel="stylesheet" href="https://src.heptazhou.com/2r19joeh93wxrsd0jc1ndu07i/a281kmzwun1jdm9kyuk4gm78z.css" type="text/css" />
-	<link rel="icon" href="/favicon.ico" type="image/png" />
+	<link rel="icon" href="https://src.heptazhou.com/favicon.ico" type="image/png" />
 	<!-- Apple -->
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 	<meta name="format-detection" content="telephone=no" />
-	<link rel="apple-touch-icon-precomposed" href="/favicon.ico" type="image/png" />
-	<script>window.location.replace("{{ page.redirect_to }}")</script>
+	<link rel="apple-touch-icon-precomposed" href="https://src.heptazhou.com/favicon.ico" type="image/png" />
+	<script src="https://src.heptazhou.com/18wggssfgo7e88kbwrbznq40m/overture.js"></script>
+	<!-- Redirect -->
+	<meta http-equiv="refresh" content="0; url={{ page.redirect_to }}" />
+	<script async>location.replace("{{ page.redirect_to }}")</script>
 </head>
 <body>
 	<h1 style="font-weight: normal">Redirecting...</h1>
